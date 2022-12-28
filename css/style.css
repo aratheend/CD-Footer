@@ -1,0 +1,728 @@
+footer {
+  background-image: url(../photo/page-footer-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .overlay {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 1rem;
+}
+footer .overlay #BigFooter {
+  margin: auto;
+}
+footer .overlay #BigFooter .SocialMedia {
+  width: 100%;
+}
+footer .overlay #BigFooter .SocialMedia a {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  font-size: 12px;
+  font-weight: 700;
+  width: 16%;
+  text-decoration: none;
+  text-align: start;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+}
+footer .overlay #BigFooter .SocialMedia a:nth-child(1):hover {
+  background-color: #3a5897;
+}
+footer .overlay #BigFooter .SocialMedia a:nth-child(2):hover {
+  background-color: #41d1da;
+}
+footer .overlay #BigFooter .SocialMedia a:nth-child(3):hover {
+  background-color: #dd4b80;
+}
+footer .overlay #BigFooter .SocialMedia a:nth-child(4):hover {
+  background-color: #35c6ea;
+}
+footer .overlay #BigFooter .SocialMedia a:nth-child(5):hover {
+  background-color: #c3222b;
+}
+footer .overlay #BigFooter .SocialMedia a:nth-child(6):hover {
+  background-color: #005cff;
+}
+footer .overlay #BigFooter .SocialMedia a:nth-child(7):hover {
+  background-color: #0073b1;
+}
+footer .overlay #BigFooter .SocialMedia a:hover span,
+footer .overlay #BigFooter .SocialMedia a:hover i {
+  color: white;
+}
+footer .overlay #BigFooter .SocialMedia a span {
+  z-index: 1;
+}
+footer .overlay #BigFooter .SocialMedia a i {
+  margin-left: 30px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .overlay #BigFooter .login {
+  width: 100%;
+  padding: 60px 0;
+}
+footer .overlay #BigFooter .login .contact {
+  width: 20%;
+  color: #c4c3c3;
+}
+footer .overlay #BigFooter .login .contact p {
+  margin: 0 0 15px;
+  font-size: 15px;
+}
+footer .overlay #BigFooter .login .contact ul {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+footer .overlay #BigFooter .login .contact li {
+  margin-top: 5px;
+  list-style: none;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: baseline;
+}
+footer .overlay #BigFooter .login .contact li i {
+  color: red;
+  padding-right: 4px;
+}
+footer .overlay #BigFooter .login .link {
+  width: 24%;
+}
+footer .overlay #BigFooter .login .link h6 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+footer .overlay #BigFooter .login .link h6:hover {
+  cursor: auto;
+}
+footer .overlay #BigFooter .login .link h6::before {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0;
+  bottom: 0px;
+}
+footer .overlay #BigFooter .login .link ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .overlay #BigFooter .login .link ul li {
+  display: inline-block;
+  width: 100%;
+  padding: 4px 0px;
+}
+footer .overlay #BigFooter .login .link ul li a {
+  text-decoration: none;
+  color: #c4c3c3;
+  transition: 0.4s ease-in-out;
+}
+footer .overlay #BigFooter .login .link ul li a:hover {
+  color: red;
+}
+footer .overlay #BigFooter .login .link ul li a i {
+  color: #ffffff;
+  z-index: 5 !important;
+  padding-right: 10px;
+}
+footer .overlay #BigFooter .login .post {
+  width: 24%;
+}
+footer .overlay #BigFooter .login .post h6 {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  position: relative;
+}
+footer .overlay #BigFooter .login .post h6::before {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0;
+  bottom: 0px;
+}
+footer .overlay #BigFooter .login .post .red-car:last-child {
+  border-bottom: none;
+}
+footer .overlay #BigFooter .login .post .red-car img {
+  height: 100%;
+}
+footer .overlay #BigFooter .login .post .red-car .info {
+  width: 100%;
+}
+footer .overlay #BigFooter .login .post .red-car .info ul {
+  list-style: none;
+  font-size: 14px;
+}
+footer .overlay #BigFooter .login .post .red-car .info ul li a {
+  text-decoration: none;
+  color: #c4c3c3;
+  transition: 0.4s ease-in-out;
+}
+footer .overlay #BigFooter .login .post .red-car .info ul li a:hover {
+  color: #da2c2d;
+}
+footer .overlay #BigFooter .login .post .red-car .info ul li i {
+  color: red;
+}
+footer .overlay #BigFooter .login .post .red-car .info ul li span {
+  color: #c4c3c3;
+  display: inline-block;
+  padding-top: 8px;
+}
+footer .overlay #BigFooter .login .post hr {
+  width: 90%;
+  outline: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.554);
+  margin: 0;
+  margin-block: 10px;
+}
+footer .overlay #BigFooter .login .newsletter {
+  width: 24%;
+}
+footer .overlay #BigFooter .login .newsletter h6 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+footer .overlay #BigFooter .login .newsletter h6:hover {
+  cursor: auto;
+}
+footer .overlay #BigFooter .login .newsletter h6::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0;
+  bottom: 0px;
+}
+footer .overlay #BigFooter .login .newsletter p {
+  margin: 0 0 10px;
+  color: #c4c3c3;
+}
+footer .overlay #BigFooter .login .newsletter input {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  margin-bottom: 15px;
+  background-color: rgba(102, 102, 102, 0.1);
+  height: 42px;
+  padding: 12px 18px;
+  color: #c4c3c3;
+  outline: none;
+  transition: 0.4s ease-in-out;
+}
+footer .overlay #BigFooter .login .newsletter input:focus {
+  border: 1px solid #da2c2d;
+}
+footer .overlay #BigFooter .login .newsletter a {
+  display: inline-block;
+  margin-left: 0;
+  margin-top: 5px;
+  padding: 7px 20px;
+  color: #ffffff;
+  background-color: #000;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+footer .overlay #BigFooter .login .newsletter a:hover::after {
+  height: 0;
+}
+footer .overlay #BigFooter .login .newsletter a:hover::before {
+  transform: translateY(-10px);
+}
+footer .overlay #BigFooter .login .newsletter a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15%;
+  width: 100%;
+  background-color: red;
+  transform: translateY(0);
+  transition: 0.2s ease-in-out 0.3s;
+}
+footer .overlay #BigFooter .login .newsletter a::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transition: 0.3s ease-out;
+}
+footer .overlay #BigFooter .login .newsletter a span {
+  color: white;
+  text-transform: capitalize;
+  font-size: 14px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+footer .overlay #BigFooter .login .boxes {
+  width: 100%;
+  margin: 4rem auto 0 auto;
+}
+footer .overlay #BigFooter .login .boxes .box-1 {
+  width: 49%;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px 30px;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .cell {
+  width: 70%;
+  vertical-align: top;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .cell h6 {
+  padding-bottom: 10px;
+  margin-bottom: 26px;
+  font-weight: normal;
+  color: white;
+  position: relative;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .cell h6::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #db2d2e;
+  left: 0;
+  bottom: 0px;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .cell p {
+  color: #c4c3c3;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .read {
+  width: 30%;
+  padding-left: 20px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .read a {
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  border: 0px solid transparent;
+  background-color: black;
+  color: #ffffff;
+  vertical-align: middle;
+  padding: 8px 20px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .read a:hover::after {
+  height: 0;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .read a:hover::before {
+  transform: translateY(-10px);
+}
+footer .overlay #BigFooter .login .boxes .box-1 .read a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15%;
+  width: 100%;
+  background-color: red;
+  transform: translateY(0);
+  transition: 0.2s ease-in-out 0.3s;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .read a::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transition: 0.3s ease-out;
+}
+footer .overlay #BigFooter .login .boxes .box-1 .read a span {
+  color: white;
+  text-transform: capitalize;
+  font-size: 14px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+footer .overlay #BigFooter .login .boxes .box-2 {
+  width: 49%;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px 30px;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .cell {
+  width: 70%;
+  vertical-align: top;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .cell h6 {
+  padding-bottom: 10px;
+  margin-bottom: 26px;
+  font-weight: normal;
+  color: white;
+  position: relative;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .cell h6::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: red;
+  left: 0;
+  bottom: 0px;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .cell p {
+  color: #c4c3c3;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .read {
+  width: 30%;
+  padding-left: 20px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .read a {
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  border: 0px solid transparent;
+  background-color: black;
+  color: #ffffff;
+  vertical-align: middle;
+  padding: 8px 20px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .read a:hover::after {
+  height: 0;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .read a:hover::before {
+  transform: translateY(-10px);
+}
+footer .overlay #BigFooter .login .boxes .box-2 .read a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15%;
+  width: 100%;
+  background-color: red;
+  transform: translateY(0);
+  transition: 0.2s ease-in-out 0.3s;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .read a::after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  transition: 0.3s ease-out;
+}
+footer .overlay #BigFooter .login .boxes .box-2 .read a span {
+  color: white;
+  text-transform: capitalize;
+  font-size: 14px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+footer .last {
+  border-top: 1px solid rgba(255, 255, 255, 0.067);
+  padding: 2rem 0;
+  background-color: black;
+}
+footer .last .left-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .last .left-right .last-left {
+  color: lightgrey;
+  font-size: 14px;
+}
+footer .last .left-right .last-left a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 14px;
+  transition: 0.4s ease-in-out;
+}
+footer .last .left-right .last-left a:hover {
+  color: #da2c2d;
+}
+footer .last .left-right .last-right a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 14px;
+  transition: 0.4s ease-in-out;
+  margin-right: 10px;
+}
+footer .last .left-right .last-right a:hover {
+  color: #da2c2d;
+}
+
+@media (max-width: 575px) {
+  footer .overlay #BigFooter .SocialMedia a {
+    padding: 15px;
+    justify-content: center;
+  }
+  footer .overlay #BigFooter .SocialMedia a span {
+    display: none;
+  }
+  footer .overlay #BigFooter .SocialMedia a i {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+  footer .overlay #BigFooter .login .contact {
+    width: 100%;
+    margin-block: 30px;
+  }
+  footer .overlay #BigFooter .login .link {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .overlay #BigFooter .login .post {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .overlay #BigFooter .login .post hr {
+    width: 100%;
+  }
+  footer .overlay #BigFooter .login .newsletter {
+    width: 100%;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 .cell {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 .read {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 {
+    width: 100%;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 .cell {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 .read {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+  footer .last .left-right .last-left {
+    width: 100%;
+    text-align: center;
+  }
+  footer .last .left-right .last-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  footer .overlay #BigFooter .SocialMedia a {
+    padding: 15px;
+    justify-content: center;
+  }
+  footer .overlay #BigFooter .SocialMedia a span {
+    display: none;
+  }
+  footer .overlay #BigFooter .SocialMedia a i {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+  footer .overlay #BigFooter .login .contact {
+    width: 100%;
+    margin-block: 30px;
+  }
+  footer .overlay #BigFooter .login .link {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .overlay #BigFooter .login .post {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .overlay #BigFooter .login .post hr {
+    width: 100%;
+  }
+  footer .overlay #BigFooter .login .newsletter {
+    width: 100%;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 .cell {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 .read {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 {
+    width: 100%;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 .cell {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 .read {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+  footer .last .left-right .last-left {
+    width: 100%;
+    text-align: center;
+  }
+  footer .last .left-right .last-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .overlay #BigFooter .SocialMedia a {
+    padding: 15px;
+    justify-content: center;
+  }
+  footer .overlay #BigFooter .SocialMedia a span {
+    display: none;
+  }
+  footer .overlay #BigFooter .SocialMedia a i {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+  footer .overlay #BigFooter .login {
+    margin-top: 2rem;
+  }
+  footer .overlay #BigFooter .login .contact {
+    width: 48%;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  footer .overlay #BigFooter .login .link {
+    width: 49%;
+    margin-bottom: 50px;
+  }
+  footer .overlay #BigFooter .login .post {
+    width: 48%;
+    margin-bottom: 50px;
+  }
+  footer .overlay #BigFooter .login .post hr {
+    width: 100%;
+  }
+  footer .overlay #BigFooter .login .newsletter {
+    width: 49%;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 {
+    width: 49%;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 .cell {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 .read {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 {
+    width: 49%;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 .cell {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 .read {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+  footer .last .left-right .last-left {
+    width: 49%;
+  }
+  footer .last .left-right .last-right {
+    width: 49%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer .overlay #BigFooter .SocialMedia a i {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 .cell {
+    width: 100%;
+  }
+  footer .overlay #BigFooter .login .boxes .box-1 .read {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 .cell {
+    width: 100%;
+  }
+  footer .overlay #BigFooter .login .boxes .box-2 .read {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 1300px) {
+  footer .overlay #BigFooter {
+    padding-inline: 5rem;
+  }
+  footer .last .left-right {
+    padding-inline: 5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
